@@ -1,27 +1,29 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 .header{
-    /* background: gray; */
-    padding:10px 5px;
-     display: flex;
+    padding: 5px 5px;
+    /* background-color: grey; */
+    display: flex;
     justify-content: space-between;
+    
+    
 }
-
 .logo{
     width: 50px;
 }
-
 .logo-parent{
- /* background-color: blue; */
+    /* background-color: blue; */
 }
 .menus-parent{
-    /* background: pink; */
+    /* background-color: pink ; */
 }
-
-.menus-list span{
+.menus span{
     margin: 0px 5px;
-    color: blue;
-    /* background-color: red; */
+}
+.menus span:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
 }
