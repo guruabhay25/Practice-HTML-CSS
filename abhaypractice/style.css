@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 5px 5px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    width: 50px;
+}
+.logo-parent{
+    /* background-color: blue; */
+}
+.menus-parent{
+    /* background-color: pink ; */
+}
+.menus span{
+    margin: 0px 5px;
+}
+.menus span:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
