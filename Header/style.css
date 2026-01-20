@@ -7,11 +7,12 @@
     /* background-color: grey; */
     display: flex;
     justify-content: space-between;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
     
     
 }
 .logo{
-    width: 50px;
+    width: 100px;
 }
 .logo-parent{
     /* background-color: blue; */
@@ -26,4 +27,55 @@
     text-decoration: underline;
     color: red;
     cursor: pointer;
+}
+.section{
+    align-items: center;
+    display: flex;
+    /* background-color: grey; */
+    padding: 50px 0px;
+}
+.abhay{
+    /* background-color: purple; */
+    padding: 0px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.guru{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.info{
+    /* background-color: chocolate; */
+    margin: 5px;
+    height: 20%;
+}
+p{
+    padding: 5px 0px;
+    font-size: 30px;
+}
+.info2{
+    /* background-color: yellow; */
+    
+}
+.info3{
+    background-color: #364BC5;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.guruimage{
+    width: 50%;
+
 }
