@@ -111,7 +111,25 @@ p{
     background-color: rgb(0, 64, 128);
     padding: 10px 20px;
 } */
-
+.company1{
+    background-color: #364BC5;
+}
+.company2{
+    background-color: #36c53b;
+    height: 30px;
+}
+.company3{
+    background-color: grey;
+    height: 30px;
+}
+.company4{
+    background-color: #a1c536;
+    height: 30px;
+}
+.cparent{
+    display: flex;
+    justify-content: center;
+}
 
 
 
