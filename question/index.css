@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    /* background-color: bisque; */
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px;
+    background-color: #E1E1E1;
+}
+.logoparent{
+    /* background-color: aqua; */
+    height: 60px;
+    padding-top: 5px;
+}
+.logo{
+    width: 70px;
+}
+.menu{
+    /* background-color: blue; */
+    height: 60px;
+    padding-top: 10px;
+}
+.menus span{
+    padding: 0px 5px;
+    font-size: large;
+    font-weight: 600;
+}
+.menus span:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+.section{
+    /* background-color: blue; */
+    display: flex;
+    padding: 50px 0px;
+    
+}
+.abhay{
+    /* background-color: yellow; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.info1{
+    padding: 5px;
+}
+.info2{
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: white;
+
+}
+.guru{
+    /* background-color: purple; */
+    width: 50%;
+     display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    
+}
+.guruimg{
+    width: 20%;
+
+}
